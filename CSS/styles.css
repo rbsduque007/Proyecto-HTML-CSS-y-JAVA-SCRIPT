@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+nav{
+    margin-top: 100px;
+}
+.boxmenu{
+    width: 500px;
+    float: left;
+}
+.boxmenu:hover{
+    background-color: rgba(255, 255, 255, 0.086);
+}
+.btnmenu{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium';
+    text-decoration:none;
+}
+.btnmenu:hover{
+    color: rgba(255, 255, 255, 0.781);
+}
+
+
+
+#contenedor1{
+    margin: auto;
+    width: 500px;
+    float: left;
+    height: 720px;
+    background-color: rgb(130, 193, 251);
+    text-align: center;
+}
+#contenedor2{
+    margin: auto;
+    width: 500px;
+    float: left;
+    height: 720px;
+    background-color: rgb(251, 173, 64);
+    text-align: center;
+}
+#contenedor3{
+    margin: auto;
+    width: 500px;
+    float: left;
+    height: 720px;
+    background-color: rgb(255, 255, 111);
+    text-align: center;
+}
+
+
+
+.footer{
+    float:left;
+    height: 450px; 
+    width: 460px; 
+    text-align: center;
+    padding: 20px;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    transition: 3s;
+    
+    
+}
+.image:hover{
+    filter: sepia(80%);
+    transform: scale(1.2);
+    transition: 3s;
+}
+

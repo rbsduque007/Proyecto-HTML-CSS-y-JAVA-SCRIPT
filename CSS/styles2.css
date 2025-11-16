@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(246, 202, 171, 0.853);
+    margin: 0;
+}
+.cabecera{
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+}
+.cabecera:hover{
+    filter: sepia(50%);
+    transform: scale(1.2);
+    transition: 3s;
+}
+nav{
+    background-color: rgba(255, 173, 79, 0.911);
+    float:left;
+    height: 40px;
+    text-align: center;
+    width: 1000px;
+}
+.btnmenu{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium';
+    text-decoration:none;
+}
+.btnmenu:hover{
+    color: rgb(255, 255, 255);
+}
+.boxmenu{
+    width: 333px;
+    height: 50px;
+    float: left;
+}
+.boxmenu:hover{
+    background-color: rgba(250, 200, 129, 0.893);
+}
+#contenedor{
+    margin: auto;
+    width: 1000px;
+}
+
+
+
+header{
+    background-color: rgba(251, 186, 73, 0.901);
+    float:left;
+    height: 200px; 
+    padding: 20px;
+    text-align: center;
+    width: 960px;
+    overflow: hidden;
+}
+aside{
+    background-color: rgba(231, 184, 103, 0.901);
+    float:left;
+    height: 700px; 
+    width: 500px;
+    overflow: hidden;
+    padding: 30px;
+    text-align: justify;
+}
+.footer{
+    background-color: rgba(250, 188, 81, 0.901);
+    float:left;
+    height: 390px; 
+    width: 220px; 
+    text-align: left;
+    padding: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+footer{
+    background-color: rgba(250, 188, 81, 0.901);
+    float:left;
+    height: 390px; 
+    width: 220px; 
+    text-align: left;
+    padding: 30px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.footer1{
+    background-color: rgba(250, 188, 81, 0.901);
+    float:left;
+    height: 390px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: justify;
+    width: 380px;
+    padding: 30px;
+}
+
+section{
+    background-color: rgba(228, 188, 117, 0.901);
+    float:left;
+    height: 720px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    text-align: justify;
+    width: 400px;
+}
